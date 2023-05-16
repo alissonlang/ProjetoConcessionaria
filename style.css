@@ -26,6 +26,7 @@ nav {
     display: flex;
     justify-content: space-around;
     border-top: 1px solid rgb(219, 219, 219);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.299);
 }
 
 nav a {
@@ -43,12 +44,38 @@ nav a:hover {
 }
 
 main {
-    margin: 400px 0;
+    margin: 20px;
+}
+
+main fieldset {
+    padding: 10px;
+}
+
+#contatos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contatos > div {
+    box-shadow: 0 0 2px rgb(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 260px;
+}
+
+footer {
+    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.299);
 }
 
 div.info {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
+}
+
+.info > div h3 {
+    margin: 10px 0;
 }
 
 div.redes {
@@ -56,15 +83,14 @@ div.redes {
     justify-content: space-around;
 }
 
-.redes a {
-    color: rgba(0, 0, 0, 0.543);
-    text-decoration: none;
+.redes img {
+    width: 32px;
 }
 
 footer span {
     background-color: #00008b;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
     display: block;
     text-align: center;
     font-weight: bold;
