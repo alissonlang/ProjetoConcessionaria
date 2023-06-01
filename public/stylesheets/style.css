@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: #00008b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    height: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #00008b;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgb(219, 219, 219);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.299);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #0000d9;
+    transition: .5s;
+}
+
+main {
+    margin: 20px;
+}
+
+main fieldset {
+    padding: 10px;
+}
+
+#contatos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contatos > div {
+    box-shadow: 0 0 2px rgb(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 260px;
+}
+
+footer {
+    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.299);
+}
+
+div.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.info > div h3 {
+    margin: 10px 0;
+}
+
+div.redes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes img {
+    width: 24px;
+}
+
+footer span {
+    background-color: #00008b;
+    color: white;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
