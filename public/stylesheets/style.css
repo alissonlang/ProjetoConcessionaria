@@ -56,6 +56,12 @@ main fieldset {
     padding: 10px;
 }
 
+button#comentar {
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+}
+
 #contatos {
     display: flex;
     justify-content: space-evenly;
@@ -90,6 +96,11 @@ div.redes {
 
 .redes img {
     width: 24px;
+}
+
+footer.info {
+    display: flex;
+    justify-content: space-around;
 }
 
 footer span {
