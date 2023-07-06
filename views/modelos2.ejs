@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+        <a href="/"><img src="images/favicon.ico"></a>
+    </div>
+    <h1><a href="/">Pampa Automóveis</a></h1>
+    <h1></h1>
+  </header>
+  <nav>
+    <a href="/">HOME</a>
+    <a href="modelos">MODELOS</a>
+    <a href="categorias">CATEGORIAS</a>
+    <a href="contatos">CONTATOS</a>
+  </nav>
+  <main>
+    <div class="listagem">
+      <% for(i=0; i<veiculos.length; i++){ %>
+        <h3><%= veiculos[i].modelo %></h3>
+        <p><%= veiculos[i].marca %></p>
+        <a href="detalhes/<%= veiculos[i].id %>">Ver detalhes</a>
+        <hr>
+      <% } %>
+    </div>
+     
+
+    <div class="carros">
+        <img src="../images/img.png">
+        <div>
+          <h1>JEEP RENEGADE</h1>
+          <h2>6.500</h2>
+          <span>R$ 149.990</span>
+          <button>Saiba mais</button>
+        </div>
+      </div>
+    
+      <div class="carros">
+        <img src="..images/images.png">
+        <div>
+          <h1>CHEVROLET ONIX</h1>
+          <h2>61.083</h2>
+          <span>R$ 66.800</span>
+          <button>Saiba mais</button>
+        </div>
+      </div>
+    
+      <div class="carros">
+        <img src="..images/pngwing.com.png">
+        <div>
+          <h1>TOYOTA HILUX</h1>
+          <h2>22.990</h2>
+          <span>R$ 275.900</span>
+          <button>Saiba mais</button>
+        </div>
+      </div>
+      
+    </body>
+    </html>
